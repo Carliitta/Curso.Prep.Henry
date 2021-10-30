@@ -4,19 +4,19 @@
 const nuevaString = 'holaa';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum = 23;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 4.2;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,46 +28,84 @@ const nuevoModulo = 21 % 5 === null;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
+  return string = 'adios'
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
-}
 
+  var num1 =4;
+  var num2 =7;
+  var suma= num1+ num2;
+   return suma
+}
+ 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   
+  var num1 =8;
+  var num2 =5;
+  var resta =num1-num2;
+  return resta;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  var num1 =4;
+  var num2 =7;
+  var mult=num1*num2;
+  return mult;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  var num1 =45;
+  var num2 =5; 
+  var div =num1/num2;
+  return div;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var x = 7;
+  var y=7;
+  if(x==y)
+  {
+    return true ;
+  }
+  else
+  {
+    if (x!==y)
+    {
+      return false;
+    }
+  }
+      
 }
+
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  var  texto1= 'banana';
+  var texto2='sandia';
+
+ if(texto1.length === texto2.length ) 
+  {
+    return true ;
+  }
+  else
+  {
+    return false;
+  }
 }
 
 function menosQueNoventa(num) {
