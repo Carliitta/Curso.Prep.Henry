@@ -290,14 +290,18 @@ function tieneTresDigitos(numero){
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
-  //Usar el bucle do ... while.
-  let result = "";
-  let i = 0;
+  //Usar el bucle do ... while.\
+  let result = '';
+  numero=4;
+  let i = 5;
   
   do {
-    i = i + 5;
-    result = result + i;
-  } while (i <8);
+
+    result = numero+ i;
+    numero++
+  }
+    while (i < 8);
+  
   
   console.log(result);
 }
