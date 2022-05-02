@@ -1,0 +1,2 @@
+ str= 'adios';
+  console.log(str) ;
